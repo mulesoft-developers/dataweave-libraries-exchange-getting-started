@@ -23,12 +23,21 @@ For a video of the tutorial go [here]().
 
 ## Overview
 
-This is a DataWeave library project example to run with the DataWeave extension in VSCode. 
+The `Standard Date Formats` folder is a DataWeave library project example to run with the DataWeave extension in VSCode. 
 
 Includes:
 - A module `DateFormatConversion` with a function `dateTimeConversion`.
 - A mapping file `DateFormatConversionMapping` to test the code live.
 - Unit tests in `DateFormatConversionTest` for quality and CI/CD purposes.
+- Required credentials in the `pom.xml` file to deploy to Exchange.
+
+The `dw-lib` folder is a Mule project with a sample application to make use of the DataWeave library from Exchange.
+
+Includes:
+- Changes on the `pom.xml` to include the Exchange DataWeave library.
+- A simple flow with a Transform Message component making use of the DataWeave library.
+
+> **Note**: The `Organization ID` might no longer work if you try this. You need to follow the tutorial to set up your own Org ID.
 
 ## Installation Instructions
 
