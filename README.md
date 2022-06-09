@@ -32,6 +32,8 @@ Includes:
 
 ## Installation Instructions
 
+**For the DataWeave library:**
+
 1. Download [Visual Studio Code](https://code.visualstudio.com/Download).
 
 2. Install the **DataWeave** extension by **MuleSoft Inc**.
@@ -39,6 +41,22 @@ Includes:
 3. Clone this repository.
 
 4. Open the `Standard Date Formats` folder in VSCode.
+
+**For the Mule project:**
+
+1. Set up your environment.
+
+<a href="https://anypoint.mulesoft.com/login/signup" ><img width="250" src="/images/start-platform.png"><a>
+	
+<a href="https://www.mulesoft.com/lp/dl/studio" ><img width="250" src="/images/download-studio.png"><a>
+
+2. Clone this repository.
+
+3. In Anypoint Studio, select `File` > `Import` > `Anypoint Studio` > `Anypoint Studio project from File System` and click Next.
+
+4. Select the `dw-lib` folder in the Project Root and make sure to **uncheck** the `Copy project into workspace` option.
+
+5. Click on Finish.
 
 ## Contributing
 
