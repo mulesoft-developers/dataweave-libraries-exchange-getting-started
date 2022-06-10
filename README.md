@@ -17,9 +17,7 @@
 
 ## Tutorial and Video
 
-For a step by step tutorial navigate to the MuleSoft developer website [here]()
-
-For a video of the tutorial go [here]().
+For a step by step tutorial navigate to the MuleSoft developer website [here](https://developer.mulesoft.com/tutorials-and-howtos/dataweave/dataweave-libraries-in-exchange-getting-started/)
 
 ## Overview
 
