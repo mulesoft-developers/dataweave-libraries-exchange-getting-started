@@ -118,7 +118,7 @@
         <repository>
             <id>exchange</id>
             <name>Exchange Repository</name>
-            <url>https://maven.anypoint.mulesoft.com/api/v3/organizations/8a3a006d-9557-4608-9f68-ff3c12eceeb/maven</url>
+            <url>https://maven.anypoint.mulesoft.com/api/v3/organizations/${groupId}/maven</url>
             <layout>default</layout>
         </repository>
     </distributionManagement>
@@ -129,7 +129,7 @@
         <repository>
             <id>exchange</id>
             <name>Exchange Repository</name>
-            <url>https://maven.anypoint.mulesoft.com/api/v3/organizations/8a3a006d-9557-4608-9f68-ff3c12eceeb/maven</url>
+            <url>https://maven.anypoint.mulesoft.com/api/v3/organizations/${groupId}/maven</url>
             <layout>default</layout>
         </repository>
         <repository>
